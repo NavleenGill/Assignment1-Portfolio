@@ -6,10 +6,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Navleen Gill' });
 });
 
-/* GET home page */
-router.get('/home', function (req, res, next) {
-   res.render('home');
-});
 
 /* GET about page */
 router.get('/about', function (req, res, next) {
