@@ -5,18 +5,19 @@
         <legend>Contact Me</legend>
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" placeholder="Enter full name">
+            <input type="text" class="form-control" placeholder="Enter full name" />
         </div>
         <div class="form-group">
             <label for="email-address">Email address</label>
-            <input type="email" class="form-control" placeholder="example@domain.com">
+            <input type="email" class="form-control" placeholder="example@domain.com" />
         </div>
         <div class="form-group">
             <label for="message">Message</label>
-            <textarea class="form-control" rows="3" placeholder="Any questions or comments"></textarea>
+            <textarea class="form-control" rows="3" placeholder="Any questions or comments" ></textarea>
         </div>
     </fieldset>
-    <button type="submit" class="btn btn-primary">Submit</button>
+<!-- On clicking the submit button, user is directed to the home page -->
+    <a href="/"><button type="button" class="btn btn-primary">Submit</button></a>
 </form>
 
 <% include ./partials/footer.ejs%>
