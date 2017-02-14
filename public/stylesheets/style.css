@@ -6,7 +6,7 @@ body {
 .introduction {
   font-size: 20px;
 }
-
+/* defining height and width for the images */
 .images {
     height: 228px;
     width: 304px;
@@ -19,6 +19,7 @@ body {
   border: 3px solid #000000;
  }
 
+/* styling of the github and linkedin logos*/
 .social-links {
   text-align: center;
   margin: 0px 10px 10px 10px;
@@ -28,6 +29,7 @@ body {
   text-align: center;
 }
 
+/* form styling*/
 .form-group {
     padding: 0px;
     margin-right: 800px;

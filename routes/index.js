@@ -1,3 +1,10 @@
+/*
+ File name: index.js
+ Author's name: Navleen Kaur Gill
+ Website name: My Portfolio
+ File Description: This file defines routes for all of the site pages - home, about, services, projects and contact
+ */
+
 var express = require('express');
 var router = express.Router();
 

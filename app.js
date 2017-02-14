@@ -1,3 +1,11 @@
+/*
+File name: app.js
+Author's name: Navleen Kaur Gill
+Website name: My Portfolio
+File Description: This file comes in-built with express. It creates an object of express and uses it to view
+engine setup.
+*/
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
