@@ -12,6 +12,11 @@ router.get('/about', function (req, res, next) {
     res.render('about');
 });
 
+/* GET services page */
+router.get('/services', function (req, res, next) {
+    res.render('services');
+});
+
 /* GET projects page */
 router.get('/projects', function (req, res, next) {
     res.render('projects');
